@@ -115,4 +115,40 @@ li{
   display: flex;
   gap: 20px;
 }
+.menu{
+  display: none;
+
+}
+@media only screen and (max-width:640px) {
+  .nav {
+  display: none;
+  }
+  .REGISTER{
+    display: none;
+   }
+   .header{
+    height: 70px;
+    padding: 10px;
+    justify-content: space-between;
+   }
+   .img{
+    width: 60px;
+    height: 60px;
+   }
+   .menu{
+    display: block;
+    font-size: 24px;
+   }
+   .main{
+    flex-direction: column;
+    
+   }
+   .main-text{
+    padding-left: 0;
+    padding-bottom: 20px;
+   }
+}
+
+
+
   
