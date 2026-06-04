@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+  font-family: "Montserrat", sans-serif;
+}
+
 .header{
   height: 100px;
   display: flex;
@@ -34,11 +38,6 @@ right: 0;}
 .img{
   height: 100px;
  
-}
-.nav{
-  
-  
-  
 }
 button{
   background-color: #107636;
@@ -72,14 +71,48 @@ button{
   padding-left: 72px;
 
 }
-.h1{
+.section1{
   color: #FFFFFF;
-  
+  margin-bottom: 30px;
 }
 .first,p2,p1{
   line-height: 100%;
   text-transform: uppercase;
   font-weight: bold;
 }
+.button2{
+  color: #106E33;
+  background-color: white;
+  width: 148px;
+  height: 41px;
+  font-size: 18px ;
+  font-weight: 700;
 
+}
+.p1{
+  margin-top: 23px;
+  margin-bottom: 23px;
+}
+.p2{
+  margin-bottom: 25px;
+}
+footer{
+  background-color: white;
+  flex-direction: column;
+  justify-content: flex-start;
+   max-width: 1180px;
+  margin: auto;
+  display: flex;
+}
+ul{
+  list-style: none;
+}
+li{
+  margin-bottom: 15px;
+}
+.social{
+  margin: 20px;
+  display: flex;
+  gap: 20px;
+}
   
